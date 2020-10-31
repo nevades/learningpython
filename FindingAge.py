@@ -1,0 +1,5 @@
+print("Welcome to the age calculator")
+current_year = input("What year do u live in: ")
+birth_year = input("Enter the year you were born in: ")
+age = int(current_year) - int(birth_year)
+print("You are " + str(age) + " years old")
